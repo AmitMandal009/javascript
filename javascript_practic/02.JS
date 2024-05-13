@@ -8,6 +8,6 @@ function callbackFunction(message) {
     console.log("Callbacks:", message);
 }
 
-doSomethingAsync(callbackFunction);
+let faller = doSomethingAsync(callbackFunction);
+console.log(faller);
 
-need to investigate this code 
